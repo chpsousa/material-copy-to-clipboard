@@ -1,0 +1,10 @@
+<mat-form-field>
+	<input matInput #inputUrl placeholder="URL para importar" value="https://github.com/chpsousa" />
+  <mat-hint>Copy to clipboard example</mat-hint>
+</mat-form-field>
+<button mat-button color="primary" (click)="copy(inputUrl)">Copy</button>
+
+
+ <mat-form-field>
+    <textarea matInput placeholder="paste here"></textarea>
+  </mat-form-field>
